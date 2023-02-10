@@ -13,7 +13,7 @@ function App() {
         <div className="App" style={{top: '50%'}}>
           <TextField id='filled-basic' onChange = { event => dispatch(setUrlValue(event.target.value))}></TextField>
           <Button onClick={() => {dispatch(fetchshortenedUrl(value))}}>clickme</Button>
-          <div>Your shortern URL: {shortenedvalue}</div>
+          <div>Your shorten URL: {shortenedvalue}</div>
         </div>
   );
 }
